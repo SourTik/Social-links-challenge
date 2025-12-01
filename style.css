@@ -121,10 +121,12 @@ p {
     color: var(--white);
     font-weight: var(--font-weight-bold);
     border-radius: 10px;
+    transition: 0.5s;
 }
 
-.card-social-links {
-    text-decoration: none;
+.card-social-links-container a:hover {
+    color: var(--grey-900);
+    background-color: var(--green);
 }
 
 .attribution { 
