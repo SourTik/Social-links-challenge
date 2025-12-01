@@ -1,6 +1,50 @@
+/* 
+DISPLAY SIZES :
+---------------
+- Desktop: 1440px
+- Mobile: 375px
 
+COLORS :
+--------------
+- Green: hsl(75, 94%, 57%)
 
+- White: hsl(0, 0%, 100%)
 
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+
+FONT SIZES :
+---------------
+- Font size (paragraph): 14px
+
+FONT FAMILY & WEIGHT
+-------------------------
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 20%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    --txt-lg: 1.2rem;
+    --txt-md: 0.875rem;
+
+    --font-weight-normal: 400;
+    --font-weight-meduim: 600;
+    --font-weight-bold: 700;
+}
 
 
 
