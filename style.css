@@ -35,10 +35,10 @@ FONT FAMILY & WEIGHT
     --green: hsl(75, 94%, 57%);
     --white: hsl(0, 0%, 100%);
     --grey-700: hsl(0, 0%, 20%);
-    --grey-800: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
     --grey-900: hsl(0, 0%, 8%);
 
-    --txt-lg: 1.2rem;
+    --txt-lg: 1.44rem;
     --txt-md: 0.875rem;
 
     --font-weight-normal: 400;
@@ -51,20 +51,87 @@ body {
     font-size: var(--txt-md);
     font-weight: var(--font-weight-normal);
     background-color: var(--grey-900);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    margin-bottom: 2rem;
 }
 
 h1{
     font-size: var(--txt-lg);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-semibold);
 }
 
 p {
     font-size: var(--txt-md);
 }
 
+.card-container {
+    background-color: var(--grey-800);
+    max-width: 25rem;
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image {
+    max-width: 5rem;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+} 
+
+.card-name-heading {
+    color: var(--white);
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+
+.card-location {
+    color: var(--green);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 2rem;
+}
+
+.card-profession {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.card-social-links-container{
+    display: grid;
+    grid-column: 1fr;
+    gap: 1rem;
+}
+
+.card-social-links-container a {
+    background-color: var(--grey-700);
+    padding: 1rem 6rem;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--font-weight-bold);
+    border-radius: 10px;
+}
+
+.card-social-links {
+    text-decoration: none;
+}
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: var(--txt-md); text-align: center; 
+    color: var(--white);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
 }
