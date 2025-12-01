@@ -42,13 +42,25 @@ FONT FAMILY & WEIGHT
     --txt-md: 0.875rem;
 
     --font-weight-normal: 400;
-    --font-weight-meduim: 600;
+    --font-weight-semibold: 600;
     --font-weight-bold: 700;
 }
 
+body {
+    font-family: 'inter', sans-serif;
+    font-size: var(--txt-md);
+    font-weight: var(--font-weight-normal);
+    background-color: var(--grey-900);
+}
 
+h1{
+    font-size: var(--txt-lg);
+    font-weight: var(--font-weight-bold);
+}
 
-
+p {
+    font-size: var(--txt-md);
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
