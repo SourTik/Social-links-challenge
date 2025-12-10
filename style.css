@@ -129,6 +129,7 @@ p {
     background-color: var(--green);
 }
 
+
 .attribution { 
     font-size: var(--txt-md); text-align: center; 
     color: var(--white);
@@ -136,4 +137,38 @@ p {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     text-decoration: none;
+}
+
+@media (max-width: 23.438rem) {
+    body {
+        padding: 2rem;
+    }
+
+    .card-container{
+        max-width: 90%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .card-image {
+        max-width: 4rem;
+    }
+
+    .card-social-links-container a {
+        padding: 0.75 rem 2rem;
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+    
+    .attribution {
+        font-size: 0.6rem;
+    }
+
 }
