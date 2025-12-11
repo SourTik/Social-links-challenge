@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com](https://github.com/SourTik/Social-links-challenge)
-- Live Site URL: [text](https://sourtik.github.io/Social-links-challenge/)
+- Solution URL: [https://github.com/SourTik/Social-links-challenge](https://github.com/SourTik/Social-links-challenge)
+- Live Site URL: [https://sourtik.github.io/Social-links-challenge/](https://sourtik.github.io/Social-links-challenge/)
 
 ## My process
 
